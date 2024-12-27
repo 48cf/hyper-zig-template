@@ -1,0 +1,15 @@
+.{
+    .name = "hyper-zig-template",
+    .version = "0.0.0",
+    .paths = .{"."},
+    .dependencies = .{
+        .@"freestnd-c-hdrs" = .{
+            .url = "https://github.com/osdev0/freestnd-c-hdrs/archive/910d752825a08421432ed71329ac140dd608e33a.tar.gz",
+            .hash = "12201fc3e116a28bcb0c205662dd91739a5c31e267bd9f2ab9ffaa0813922b2f7535",
+        },
+        .@"ultra-protocol" = .{
+            .url = "https://github.com/UltraOS/UltraProtocol/archive/69235d363c077a090a9b7a313ed8c6f73e4a4807.tar.gz",
+            .hash = "12203eb55f77b2457d2f1cede0965536838997a92ecce404932408358f0b5e90fcf5",
+        },
+    },
+}
